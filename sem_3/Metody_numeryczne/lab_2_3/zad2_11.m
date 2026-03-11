@@ -1,0 +1,9 @@
+x=10^(-50);
+y=10^200;
+z=10^300;
+a=(abs(x)*abs(y))/abs(z); %x & y big diffrence
+b=abs(x)*(abs(y)/abs(z));%y & z aproximate abs value
+c=(abs(x)/abs(z))*abs(y); %x & z aprosimate value
+disp("a ="+a)
+disp("b ="+b)
+disp("c ="+c)
