@@ -1,0 +1,1 @@
+Projekt dotyczy opracowanie zadań z rozdziału 13
