@@ -1,0 +1,91 @@
+
+ import math
+import random
+import time
+
+def dist(city1, city2):
+    return math.sqrt((city1[0] - city2[0]) ** 2 + (city1[1] - city2[1]) ** 2)
+def distance(path):
+    distance=0
+    num_cities=len(path)
+    for i in range(num_cities-1):
+        distance+=dist(path[i],path[i+1])
+    distance+=dist(path[-1],path[0])
+    return distance
+
+
+def nearest_neighbour(path):
+    path = path.copy()
+    start_index = random.randint(0, len(path) - 1)
+    new_path = [path[start_index]]
+    path.pop(start_index)
+    while path:
+        nearest_dist = float('inf')
+        nearest_index = None
+        for i, city in enumerate(path):
+            distance = dist(new_path[-1], city)
+            if distance < nearest_dist:
+                nearest_dist = distance
+                nearest_index = i
+        new_path.append(path[nearest_index])
+        path.pop(nearest_index)
+    return new_path
+
+def tabu_search(cities, max_iter, tabu_size):
+    num_cities = len(cities)
+    current_route = nearest_neighbour(cities)
+    best_route = current_route[:]
+    best_distance = distance(best_route)
+    tabu_list = []
+
+    for i in range(max_iter):
+        # Wygenerowanie sąsiedniego rozwiązania przez zamianę dwóch losowych miast
+        new_route = current_route[:]
+        idx1, idx2 = random.sample(range(num_cities), 2)
+        new_route[idx1], new_route[idx2] = new_route[idx2], new_route[idx1]
+
+        # Obliczenie długości nowej trasy
+        new_distance = distance(new_route)
+
+        # Jeśli nowa trasa jest lepsza niż dotychczasowa lub jest na liście tabu zastępujemy obecną trasę nową
+        if new_distance < best_distance or new_route in tabu_list:
+            current_route = new_route[:]
+            current_distance = new_distance
+
+            # Aktualizacja najlepszej trasy
+            if new_distance < best_distance:
+                best_route = new_route[:]
+                best_distance = new_distance
+
+            # Dodanie ruchu do listy tabu
+            tabu_list.append(new_route)
+            if len(tabu_list) > tabu_size:
+                tabu_list.pop(0)
+
+    return best_distance
+
+def main():
+    path = []
+    with open('C:\\Users\\mateu\\Desktop\\TSP.txt', 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line:
+                index, x, y = line.split()
+                path.append((float(x), float(y)))
+
+    path_1=distance(path)
+    print("path like in the file",path_1)
+    s_n=time.time()
+    new_path = nearest_neighbour(path)
+    e_n=time.time()
+    print("Nearest Neighbor", sum(dist(new_path[i], new_path[(i + 1) % len(new_path)]) for i in range(len(new_path))),'time :',e_n-s_n)
+    max_iter = 1000
+    tabu_size = 10
+    s_t=time.time()
+    best_distance = tabu_search(path, max_iter, tabu_size)
+    e_t=time.time()
+    print("Tabu search distance", best_distance,'time :',e_t-s_t)
+
+
+if __name__ == '__main__':
+    main()
