@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card mb-3">
+    <div class="card-header">
+        Przykład 1: dodanie danych do tabeli za pomocą metody POST
+    </div>
+    <div class="card-body">
+
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="surname" placeholder="Surname">
+            <input type="submit" value="Add">
+        </form>
+
+        <table class="table table-striped mt-3" id="my-table1">
+            <thead>
+            <tr class="header-row">
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!--
+            Poczytaj o pętli for w Twigu na stronie: https://twig.symfony.com/doc/3.x/tags/for.html
+            -->
+            {% for row in example1 %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.surname }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------------>
+
+<div class="card mb-3">
+    <div class="card-header">
+        Przykład 2: pobranie z bazy danych tylko osób o wskazanym imieniu i powiększenie wszystkich liter nazwiska
+    </div>
+    <div class="card-body">
+
+        Znajdź w poprzednim przykładzie dowolne imię i wstaw je do formularza poniżej.<br /><br />
+
+        <form action="/" method="POST">
+            <input type="text" name="search" placeholder="Name">
+            <input type="submit" value="Search">
+        </form>
+
+        <table class="table table-striped mt-3" id="my-table2">
+            <thead>
+            <tr class="header-row">
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in example2 %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.surname }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------------>
+
+<div class="card mb-3">
+    <div class="card-header">
+        Przykład 3: dane z bazy psują (kolorują) tabelę za pomocą niechcianego kodu JS
+    </div>
+    <div class="card-body">
+        <table class="table table-striped" id="my-table3">
+            <thead>
+            <tr class="header-row">
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in example3 %}
+            <tr>
+                <td>{{ row.id }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.surname|raw }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

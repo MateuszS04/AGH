@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4 class="mb-4">Guestbook</h4>
+
+<form action="/index.php?page=guestbook" method="POST">
+    <textarea name="opinion"></textarea>
+    <br />
+    <input type="submit" value="Add">
+</form>
+
+<table class="table table-striped mt-5">
+    <thead>
+        <th>ID</th>
+        <th>Opinion</th>
+        <th>IP</th>
+        <th>Created</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+    {% for row in rows %}
+    <tr>
+        <td>{{ row.id }}</td>
+        <td>{{ row.opinion }}</td>
+        <td>{{ row.ip }}</td>
+        <td>{{ row.created }}</td>
+        <td>
+            {% if row.ip == user_ip %}
+                <a href="/index.php?page=guestbook&delete={{ row.id }}"><button>Delete</button></a>
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
