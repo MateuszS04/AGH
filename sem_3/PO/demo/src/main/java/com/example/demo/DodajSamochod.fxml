@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.DodajSamochodController">
+   <children>
+      <Button fx:id="confirm" layoutX="35.0" layoutY="56.0" mnemonicParsing="false" text="confirm" />
+      <Button fx:id="Cancel" layoutX="117.0" layoutY="56.0" mnemonicParsing="false" text="cancel" />
+      <TextField fx:id="nr_rej" layoutX="160.0" layoutY="125.0" />
+      <TextField fx:id="model" layoutX="160.0" layoutY="175.0" />
+      <TextField fx:id="weight" layoutX="160.0" layoutY="218.0" />
+      <TextField fx:id="speed" layoutX="160.0" layoutY="267.0" />
+      <Label layoutX="35.0" layoutY="129.0" text="Numer rejestracyjny" />
+      <Label layoutX="35.0" layoutY="179.0" text="Model" />
+      <Label layoutX="35.0" layoutY="222.0" text="Waga" />
+      <Label layoutX="35.0" layoutY="271.0" text="Prędkość" />
+   </children>
+</AnchorPane>

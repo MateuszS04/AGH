@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="833.0" prefWidth="1223.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <SplitPane dividerPositions="0.18289585097375105" prefHeight="793.0" prefWidth="1067.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <VBox layoutX="-5.0" layoutY="-1.0" prefHeight="793.0" prefWidth="217.0">
+                     <children>
+                        <TitledPane animated="false" text="Samochód">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Button fx:id="StartButton" layoutX="14.0" layoutY="133.0" mnemonicParsing="false" text="Włącz"/>
+                                    <Button fx:id="StopButton" layoutX="147.0" layoutY="133.0" mnemonicParsing="false" text="Wyłącz" />
+                                    <TextField fx:id="nr_rej" layoutX="118.0" layoutY="2.0" prefHeight="25.0" prefWidth="93.0" editable="false"/>
+                                    <TextField  fx:id="model" layoutX="115.0" layoutY="103.0" prefHeight="25.0" prefWidth="94.0" editable="false"/>
+                                    <TextField fx:id="waga" layoutX="116.0" layoutY="66.0" prefHeight="30.0" prefWidth="94.0" editable="false"/>
+                                    <Label layoutX="24.0" layoutY="6.0" text="Nr rejestracyjny" />
+                                     <Label layoutX="17.0" layoutY="78.0" text="Waga" />
+                                     <Label layoutX="23.0" layoutY="40.0" text="Model" />
+                                     <Label layoutX="25.0" layoutY="107.0" text="Prędkość" />
+                                     <TextField fx:id="speed" layoutX="117.0" layoutY="36.0" prefHeight="25.0" prefWidth="92.0" editable="false" />
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Silnik">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Button layoutX="14.0" layoutY="146.0" mnemonicParsing="false" text="Przyspiesz" />
+                                    <Button layoutX="123.0" layoutY="146.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Zwolnij" />
+                                    <TextField fx:id="silnik_waga" layoutX="96.0" layoutY="38.0" prefHeight="25.0" prefWidth="100.0" editable="false" />
+                                     <TextField fx:id="silnik_cena" layoutX="96.0" layoutY="2.0" prefHeight="25.0" prefWidth="100.0" editable="false"/>
+                                     <TextField fx:id="silnik_nazwa" layoutX="96.0" layoutY="74.0" prefHeight="25.0" prefWidth="100.0" editable="false"/>
+                                    <Label layoutX="21.0" layoutY="6.0" text="Nazwa" />
+                                     <Label layoutX="21.0" layoutY="78.0" text="Waga" />
+                                     <Label layoutX="21.0" layoutY="42.0" text="Cena" />
+                                 </children></AnchorPane>
+                          </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Sprzęgło">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-cursor: red;">
+                                 <children>
+                                    <Button fx:id="press" layoutX="14.0" layoutY="146.0" mnemonicParsing="false" text="Wciśnij" />
+                                    <Button layoutX="160.0" layoutY="146.0" mnemonicParsing="false" text="Puść" />
+                                    <TextField fx:id="sprzeglo_cena" layoutX="102.0" layoutY="14.0" prefHeight="25.0" prefWidth="99.0" editable="false"/>
+                                     <TextField fx:id="sprzeglo_model" layoutX="102.0" layoutY="114.0" prefHeight="25.0" prefWidth="99.0" editable="false"/>
+                                     <TextField fx:id="sprzeglo_waga" layoutX="102.0" layoutY="48.0" prefHeight="25.0" prefWidth="99.0" editable="false"/>
+                                    <Label layoutX="34.0" layoutY="18.0" text="Cena" />
+                                     <Label layoutX="34.0" layoutY="118.0" text="Model" />
+                                     <Label layoutX="34.0" layoutY="52.0" text="Waga" />
+                                 </children></AnchorPane>
+                          </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Skrzynia">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Button fx:id="DownShift" layoutX="119.0" layoutY="135.0" mnemonicParsing="false" text="Zmniejsz Bieg" />
+                                    <Button fx:id="UpShift" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" text="Zwiększ bieg" />
+                                    <TextField fx:id= "skrzynia_bieg" layoutX="92.0" layoutY="14.0" prefHeight="25.0" prefWidth="113.0" editable="false"/>
+                                     <TextField fx:id= "skrzynia_cena" layoutX="92.0" layoutY="87.0" prefHeight="25.0" prefWidth="113.0" editable="false"/>
+                                     <TextField fx:id= "skrzynia_waga" layoutX="92.0" layoutY="50.0" prefHeight="25.0" prefWidth="113.0" editable="false"/>
+                                    <Label layoutX="42.0" layoutY="18.0" text="Bieg" />
+                                     <Label layoutX="42.0" layoutY="91.0" text="Waga" />
+                                     <Label layoutX="42.0" layoutY="54.0" text="cena" />
+                                 </children></AnchorPane>
+                          </content>
+                        </TitledPane>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="791.0" prefWidth="979.0" />
+        </items>
+      </SplitPane>
+   </children>
+
+
+
+</VBox>
