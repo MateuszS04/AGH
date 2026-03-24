@@ -1,0 +1,52 @@
+body {
+    background-color: #bf9ae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Efekt fade-in */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 1. Efekt zmiany tła */
+.effect-bg:hover {
+    background: linear-gradient(45deg, #3be01a, #25a10b);
+    transition: background 0.3s ease-in-out;
+}
+
+/* 2. Efekt zmiany cienia */
+.effect-shadow:hover {
+    box-shadow: 0 8px 20px rgba(223, 10, 10, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* 3. Efekt zmiany cienia i powiększenia */
+.effect-shadow-scale:hover {
+    box-shadow: 0 8px 20px rgba(223, 10, 10, 0.3);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* 4. Wszystkie efekty + otwieranie modala */
+.effect-all:hover {
+    box-shadow: 0 8px 20px rgba(223, 10, 10, 0.3);
+    background: linear-gradient(45deg, #3be01a, #25a10b);
+    transform: scale(1.05);
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
