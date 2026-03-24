@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ColorCache Version="1.0.0">
+ <ColorMap size="6">
+  <ColorMapEntry val="0.6" r="255" g="128" b="0" symbol="SOLID"/>
+  <ColorMapEntry val="0.5" r="255" g="183" b="111" symbol="SOLID"/>
+  <ColorMapEntry val="0.4" r="255" g="255" b="128" symbol="SOLID"/>
+  <ColorMapEntry val="0.3" r="128" g="255" b="128" symbol="SOLID"/>
+  <ColorMapEntry val="0.2" r="0" g="213" b="53" symbol="SOLID"/>
+  <ColorMapEntry val="0.1" r="3" g="156" b="106" symbol="SOLID"/>
+ </ColorMap>
+</ColorCache>

@@ -1,0 +1,48 @@
+Point Query
+-----------
+
+Latitude:    44 19 22.12 North      44.322811
+Longitude:  123 14 24.15 West     -123.240042
+
+Terrain elevation:    82.4 meters
+Terrain database type index:  6
+
+Land use (clutter) type number:  18
+
+Land use (clutter) category: Cultivated Crops                
+Clutter height:     1.0 meters
+
+Raw signal data for 'Received Power at remote'                                  
+
+ Sector   Downlink Power  Uplink Power    Distance    Bearing     Transit time  Transit+TX_offset
+--------  --------------  ------------  ----------  ------------  ------------  -----------------
+E2          -91.8 dBmW    -101.9 dBmW      4.9 km     259.9 deg       16.2 uS       16.2 uS
+A1          -94.4 dBmW    -104.5 dBmW      7.9 km     160.2 deg       26.0 uS       26.0 uS
+B1          -95.9 dBmW    -105.9 dBmW      9.9 km     190.3 deg       32.8 uS       32.8 uS
+F1          -98.6 dBmW    -108.7 dBmW      8.8 km     130.8 deg       28.9 uS       28.9 uS
+C1         -100.1 dBmW    -110.2 dBmW     11.8 km     166.5 deg       38.8 uS       38.8 uS
+E1         -102.2 dBmW    -112.4 dBmW      4.9 km     259.9 deg       16.2 uS       16.2 uS
+Shadowed: No 
+Minimum RMS delay spread:             0.0 nSec
+Minimum pathloss:                   133.5 dB
+Maximum field strength at remote:    53.5 dBuV/m
+Maximum field strength at base:      36.5 dBuV/m
+Power flux density:                 -88.3 dBW/m2
+
+Raw signal study grid array coordinates (x,y):    -3   41
+
+--- mxx_file: view.0.1.mxx  
+Strongest (most likely) Server:   -91.8dbmW        - server = E2      
+signal_2 value:  -94.4  (A1      )
+signal_3 value:  -95.9  (B1      )
+
+--- mxx_file: view.0.2.mxx  
+Worst channel C/(I+N) for multiple-channel systems:    23.2     dB - server = E2      
+
+--- mxx_file: view.0.3.mxx  
+Received power at best base from remote:  -101.8   dBmW - server = E2      
+
+--- mxx_file: view.0.4.mxx  
+Received Power at remote:   -91.8   dBmW - server = E2      
+signal_2 value:  -94.4  (A1      )
+signal_3 value:  -95.9  (B1      )

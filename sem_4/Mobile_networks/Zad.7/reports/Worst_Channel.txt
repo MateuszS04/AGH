@@ -1,0 +1,85 @@
+ Worst Channel C/(I+N) for Multiple-Channel Systems
+  
+ Downlink required service C/(I+N) threshold:   13.00000    
+  
+  
+ SECTOR A1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR A2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR B1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR B2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR B3      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR C1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR C2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR C3      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR D1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR D2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR E1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR E2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR E3      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR F1      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR F2      
+  
+         0.0 sq km in service area
+  
+  
+ SECTOR F3      
+  
+         0.0 sq km in service area
+  
+  

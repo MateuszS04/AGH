@@ -1,0 +1,85 @@
+Temp. level:    1.000     Acceptance ratio:    0.570     Current cost:       17.692
+Temp. level:    0.850     Acceptance ratio:    0.550     Current cost:        8.469
+Temp. level:    0.722     Acceptance ratio:    0.670     Current cost:       13.788
+Temp. level:    0.614     Acceptance ratio:    0.530     Current cost:        6.916
+Temp. level:    0.522     Acceptance ratio:    0.390     Current cost:        4.480
+Temp. level:    0.444     Acceptance ratio:    0.280     Current cost:        5.273
+Temp. level:    0.377     Acceptance ratio:    0.130     Current cost:        4.778
+Temp. level:    0.321     Acceptance ratio:    0.030     Current cost:        3.245
+Temp. level:    0.272     Acceptance ratio:    0.040     Current cost:        2.246
+Temp. level:    0.232     Acceptance ratio:    0.020     Current cost:        2.222
+Temp. level:    0.197     Acceptance ratio:    0.020     Current cost:        2.019
+Temp. level:    0.167     Acceptance ratio:    0.100     Current cost:        0.704
+Temp. level:    0.142     Acceptance ratio:    0.090     Current cost:        0.506
+Temp. level:    0.121     Acceptance ratio:    0.120     Current cost:        0.273
+Temp. level:    0.103     Acceptance ratio:    0.050     Current cost:        0.261
+Temp. level:    0.087     Acceptance ratio:    0.030     Current cost:        0.263
+Temp. level:    0.074     Acceptance ratio:    0.140     Current cost:        0.253
+Temp. level:    0.063     Acceptance ratio:    0.130     Current cost:        0.255
+Temp. level:    0.054     Acceptance ratio:    0.090     Current cost:        0.253
+Temp. level:    0.046     Acceptance ratio:    0.040     Current cost:        0.253
+Temp. level:    0.039     Acceptance ratio:    0.000     Current cost:        0.253
+Temp. level:    0.033     Acceptance ratio:    0.000     Current cost:        0.253
+Temp. level:    0.028     Acceptance ratio:    0.080     Current cost:        0.253
+Temp. level:    0.024     Acceptance ratio:    0.040     Current cost:        0.253
+Temp. level:    0.020     Acceptance ratio:    0.090     Current cost:        0.253
+Temp. level:    0.017     Acceptance ratio:    0.210     Current cost:        0.253
+Temp. level:    0.015     Acceptance ratio:    0.000     Current cost:        0.253
+Temp. level:    0.012     Acceptance ratio:    0.210     Current cost:        0.253
+Temp. level:    0.011     Acceptance ratio:    0.000     Current cost:        0.253
+Temp. level:    0.009     Acceptance ratio:    0.270     Current cost:        0.250
+sectors A1       on ch  3,F3       on ch  4, cost =0.003
+sectors A1       on ch  3,F3       on ch  2, cost =0.003
+sectors A2       on ch 11,B2       on ch 10, cost =0.009
+sectors A2       on ch 11,C1       on ch 12, cost =0.002
+sectors B1       on ch 13,C1       on ch 12, cost =0.007
+sectors B1       on ch 13,F2       on ch 13, cost =0.002
+sectors B2       on ch 10,A2       on ch 11, cost =0.008
+sectors B2       on ch 10,C2       on ch  9, cost =0.005
+sectors B2       on ch 10,D2       on ch 10, cost =0.015
+sectors B3       on ch  5,C1       on ch  6, cost =0.002
+sectors B3       on ch  8,C3       on ch  7, cost =0.007
+sectors B3       on ch  8,C3       on ch  7, cost =0.007
+sectors B3       on ch  8,D1       on ch  8, cost =0.013
+sectors B3       on ch  5,E2       on ch  5, cost =0.002
+sectors B3       on ch  5,F3       on ch  4, cost =0.007
+sectors C1       on ch 12,A2       on ch 11, cost =0.004
+sectors C1       on ch 12,B1       on ch 13, cost =0.004
+sectors C1       on ch  6,C3       on ch  7, cost =0.003
+sectors C1       on ch  6,C3       on ch  7, cost =0.003
+sectors C1       on ch  6,E1       on ch  7, cost =0.001
+sectors C1       on ch  6,E2       on ch  5, cost =0.003
+sectors C1       on ch 12,F1       on ch 11, cost =0.004
+sectors C2       on ch  9,B2       on ch 10, cost =0.010
+sectors C2       on ch  9,D1       on ch  8, cost =0.007
+sectors C2       on ch  3,F3       on ch  4, cost =0.005
+sectors C2       on ch  3,F3       on ch  2, cost =0.005
+sectors C2       on ch  3,F3       on ch  4, cost =0.005
+sectors C2       on ch  3,F3       on ch  2, cost =0.005
+sectors C3       on ch  7,B3       on ch  8, cost =0.006
+sectors C3       on ch  7,B3       on ch  8, cost =0.006
+sectors C3       on ch  1,F3       on ch  2, cost =0.008
+sectors D1       on ch  8,C2       on ch  9, cost =0.003
+sectors D1       on ch  8,F1       on ch  9, cost =0.003
+sectors D2       on ch 10,E3       on ch  9, cost =0.001
+sectors D2       on ch 10,F1       on ch 11, cost =0.001
+sectors D2       on ch 10,F1       on ch  9, cost =0.001
+sectors E1       on ch  7,C1       on ch  6, cost =0.006
+sectors E2       on ch  5,C1       on ch  6, cost =0.006
+sectors E3       on ch  9,D2       on ch 10, cost =0.003
+sectors E3       on ch  9,F1       on ch  9, cost =0.003
+sectors F1       on ch 11,C1       on ch 12, cost =0.009
+sectors F1       on ch  9,C2       on ch  9, cost =0.004
+sectors F1       on ch  9,D1       on ch  8, cost =0.007
+sectors F2       on ch 13,B1       on ch 13, cost =0.005
+sectors F2       on ch 13,C1       on ch 12, cost =0.003
+sectors F3       on ch  4,A1       on ch  3, cost =0.002
+sectors F3       on ch  2,A1       on ch  3, cost =0.002
+sectors F3       on ch  4,B3       on ch  5, cost =0.002
+sectors F3       on ch  4,C2       on ch  3, cost =0.001
+sectors F3       on ch  4,C2       on ch  3, cost =0.001
+sectors F3       on ch  2,C2       on ch  3, cost =0.001
+sectors F3       on ch  2,C2       on ch  3, cost =0.001
+sectors F3       on ch  2,C3       on ch  1, cost =0.003
+sectors F3       on ch  4,E2       on ch  5, cost =0.001
+  total cost =  0.2502700    

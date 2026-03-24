@@ -1,0 +1,31 @@
+Traffic Loading Report
+----------------------
+
+Traffic source: Traffic from traffic database                     
+
+Circuit-switched blocking probability:   1.00%
+
+Circuit-switched average call duration:   1.76 minutes
+
+Percent of total traffic carried by group: 100.00 %
+
+          Circuit Traffic  Circuit Traffic   Number of    Channel  Current Blocking Packet Traffic
+Sector ID   (mErlangs)    Required Channels Channels Set Shortfall Probability (%)  (average mbps)
+--------- --------------- ----------------- ------------ --------- ---------------- --------------
+ABAA0003     52048.52             71              0          71         *****         52.0485
+ABAA0004     11071.62             21              0          21         *****         11.0716
+ABAB0004      9736.93             19              0          19         *****          9.7369
+ABAC0003      4945.84             12              0          12         *****          4.9458
+ABAC0004      4715.33             12              0          12         *****          4.7153
+ABAD0001     12460.96             23              0          23         *****         12.4610
+ABAD0002      5045.47             12              0          12         *****          5.0455
+ABAE0001      1754.77              6              0           6         *****          1.7548
+ABAE0002      1127.79              5              0           5         *****          1.1278
+ABAF0001       914.88              5              0           5         91.49          0.9149
+ABAG0001     88266.14            112              0         112         *****         88.2661
+ABAG0002     10544.53             20              0          20         *****         10.5445
+ABAH0001       881.91              5              0           5         88.19          0.8819
+ABAI0001      6680.51             14              0          14         *****          6.6805
+ABAJ0001     10546.97             20              0          20         *****         10.5470
+ABAK0001      8522.39             17              0          17         *****          8.5224
+ABAL0001      8750.37             17              0          17         *****          8.7504

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ColorCache Version="1.0.0">
+ <ColorMap size="16">
+  <ColorMapEntry val="0.869" r="84" g="84" b="232" symbol="SOLID"/>
+  <ColorMapEntry val="0.8111" r="125" g="64" b="247" symbol="SOLID"/>
+  <ColorMapEntry val="0.7531" r="189" g="126" b="220" symbol="SOLID"/>
+  <ColorMapEntry val="0.6952" r="215" g="51" b="215" symbol="SOLID"/>
+  <ColorMapEntry val="0.6373" r="253" g="88" b="198" symbol="SOLID"/>
+  <ColorMapEntry val="0.5792999999999999" r="235" g="60" b="118" symbol="SOLID"/>
+  <ColorMapEntry val="0.5214" r="250" g="24" b="24" symbol="SOLID"/>
+  <ColorMapEntry val="0.4635" r="241" g="128" b="72" symbol="SOLID"/>
+  <ColorMapEntry val="0.4055" r="233" g="204" b="144" symbol="SOLID"/>
+  <ColorMapEntry val="0.3476" r="219" g="219" b="119" symbol="SOLID"/>
+  <ColorMapEntry val="0.2897" r="182" g="218" b="111" symbol="SOLID"/>
+  <ColorMapEntry val="0.2317" r="138" g="229" b="93" symbol="SOLID"/>
+  <ColorMapEntry val="0.1738" r="76" g="197" b="76" symbol="SOLID"/>
+  <ColorMapEntry val="0.1159" r="73" g="231" b="126" symbol="SOLID"/>
+  <ColorMapEntry val="0.0579" r="56" g="221" b="166" symbol="SOLID"/>
+  <ColorMapEntry val="0.0" r="33" g="225" b="225" symbol="SOLID"/>
+ </ColorMap>
+</ColorCache>

@@ -1,0 +1,30 @@
+Traffic Loading Report
+----------------------
+
+Traffic source: Traffic from traffic database                     
+
+Circuit-switched blocking probability:   1.00%
+
+Circuit-switched average call duration:   1.76 minutes
+
+Percent of total traffic carried by group: 100.00 %
+
+          Circuit Traffic  Circuit Traffic   Number of    Channel  Current Blocking Packet Traffic
+Sector ID   (mErlangs)    Required Channels Channels Set Shortfall Probability (%)  (average mbps)
+--------- --------------- ----------------- ------------ --------- ---------------- --------------
+A1            1457.87              6              8          -2          0.01          1.4579
+A2            1877.83              7              8          -1          0.08          1.8778
+B1             164.95              3              8          -5          0.00          0.1649
+B2             695.95              4              8          -4          0.00          0.6959
+B3            3524.67             10             16          -6          0.00          3.5247
+C1            4175.60             11             16          -5          0.00          4.1756
+C2           10937.21             20             24          -4          0.05         10.9372
+C3           10139.42             19             24          -5          0.02         10.1394
+D1             788.89              4              8          -4          0.00          0.7889
+D2            1124.84              5              8          -3          0.00          1.1248
+E1            1373.74              6              8          -2          0.01          1.3737
+E2            1712.72              6              8          -2          0.04          1.7127
+E3            1133.91              5              8          -3          0.00          1.1339
+F1            5006.30             12             16          -4          0.01          5.0063
+F2            2141.57              7              8          -1          0.18          2.1416
+F3            4520.52             11             16          -5          0.00          4.5205

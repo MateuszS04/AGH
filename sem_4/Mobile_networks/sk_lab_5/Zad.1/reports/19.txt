@@ -1,0 +1,17 @@
+'Strongest (most likely) Server'
+    Minimum value: -1030.0
+    Maximum value:  -322.0
+    All areas based on study grid cell counts in query area
+    Total query area: 10020.010 km^2
+    Total valid signal area: 612.120 km^2
+    Percent valid area: 6.11% of total query area
+
+Values   Percent      Coverage Area (km^2)
+---------------------------------------------------
+
+
+
+
+   Server ID: ABAA0001    Area:     194.510 km^2    1.94%  Ave. value:   -953.1 
+   Server ID: ABAA0002    Area:     159.640 km^2    1.59%  Ave. value:   -960.5 
+   Server ID: ABAA0003    Area:     257.970 km^2    2.57%  Ave. value:   -968.3 

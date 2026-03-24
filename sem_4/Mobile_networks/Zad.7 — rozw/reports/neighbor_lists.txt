@@ -1,0 +1,105 @@
+Threshold % of grid points:  4
+ 2nd 3rd server neighbors included                
+Server - # of neighbors - # of grid points
+------------------------------------------
+A1          6     2098
+   F1              884                      
+   D1              337                      
+   E2              148                      
+   C1              114                      
+   B1              106                      
+   F3               92                      
+A2          5     1484
+   B2              487                      
+   C3              315                      
+   C2              245                      
+   C1              223                      
+   F3              100                      
+B1          6      964
+   D2              267                      
+   B3              213                      
+   C1              167                      
+   A1               98                      
+   B2               51                      
+   F1               50  ** not reciprocated 
+B2          7      792
+   C2              206                      
+   C3              175                      
+   A2              132                      
+   C1               72                      
+   B1               66                      
+   B3               40                      
+   F2               37  ** not reciprocated 
+B3          5     1709
+   C3              521                      
+   F3              275                      
+   B1              261                      
+   D2              243                      
+   B2               88                      
+C1          8      693
+   A2              180                      
+   A1               96                      
+   F1               80  ** not reciprocated 
+   B1               49  ** not reciprocated 
+   B2               45                      
+   F3               42                      
+   C3               36                      
+   C2               30                      
+C2          3     4603
+   A2             1405                      
+   F2             1250                      
+   B2             1170                      
+C3          5     3627
+   A2             1272                      
+   B3              563                      
+   B2              541                      
+   F3              514                      
+   D2              151  ** not reciprocated 
+D1          6      806
+   A1              335                      
+   F2              122                      
+   E2               66  ** not reciprocated 
+   C2               66  ** not reciprocated 
+   B1               53                      
+   F1               46                      
+D2          7     1732
+   B1              486                      
+   F3              321                      
+   E2              125                      
+   B3              112                      
+   C1              103  ** not reciprocated 
+   A1               88                      
+   E3               72                      
+E1          4     1827
+   A1              632  ** not reciprocated 
+   B1              509  ** not reciprocated 
+   E2              177                      
+   F1              170  ** not reciprocated 
+E2          6     1119
+   A1              343                      
+   E1              204                      
+   B1              171                      
+   D2              144                      
+   F1               57  ** not reciprocated 
+   E3               47                      
+E3          2      690
+   E2              194                      
+   D2              135                      
+F1          3     5782
+   A1             2677                      
+   D1              648                      
+   F2              241                      
+F2          3     4736
+   D1             1641                      
+   C2             1512                      
+   F1              371                      
+F3          9     1101
+   C3              157                      
+   A2              120                      
+   F2              120  ** not reciprocated 
+   C1              107                      
+   D1              103                      
+   D2               81                      
+   A1               77                      
+   B3               61                      
+   F1               49  ** not reciprocated 
