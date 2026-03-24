@@ -1,0 +1,20 @@
+Dzisiejsze zadanie jest następujące: należy zbudować odbiornik warstwy fizycznej dla sygnału
+sieci trunkingowej TETRA. Sieci trunkingowych używają radiotelefony rozmaitych służb takich jak policja, straż pożarna, MPK 
+itp.
+Listę częstotliwości przypisanych poszczególnym służbom znajdziecie na stronie:
+https://czestotliwosci.pl.tl/Inne-miasta-Polski.htm (ctrl+f kraków) 
+
+W przypadku braku urządzenia SDR, lub słabej jakości odbieranych sygnałów można skorzystać również z pliku
+z nagranym sygnałem przykładowej sieci TETRA (tetra_IQ.wav)
+
+Szczegóły dotyczące kodowania warstwy fizycznej sygnału TETRA znajdziecie w dokumencie: ETS 300 393-2
+dla wygody dokument został dodany do niniejszego archiwum (ets_30039302e02v.pdf)
+
+Szkielet odbiornika warstwy fizycznej TETRA wraz z przydatnymi danymi znajduje się w pliku tetra_rcv.m
+
+
+W celu przetestowania poprawności odebranego strumienia bitów należy skorzystać z parsera sygnałów TETRA wchodzącego
+w skład biblioteki osmocom-tetra. W celu zainstalowania osmocom-tetra na laboratoryjnym komputerze z systemem Ubuntu
+wystarczy pobrać i uruchomić skrypt tetraInstall.sh. W wyniku działania skryptu powinien zainstalować się program tetra-rx
+pozwalający na weryfikację poprawności odebranych przy pomocy programu tetra_rcv.m sekwencji bitów
+
